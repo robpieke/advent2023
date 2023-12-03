@@ -6,7 +6,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 
 | Day                                        | Language | Part 1                                     | Part 2                                     | Notes                                 |
 | -----------------------------------------: | :------: | :----------------------------------------: | :----------------------------------------: | :-----------------------------------: |
-| [1](https://adventofcode.com/2023/day/1)   | Bash     | [:white_check_mark:](01_Bash/01a.sh)       | [:white_check_mark:](01_Bash/01b.sh)       | [:spiral_notepad:](#day-1---bash)     |
+| [1](https://adventofcode.com/2023/day/1)   | Perl     | [:white_check_mark:](01_Perl/01a.pl)       | [:white_check_mark:](01_Perl/01b.pl)       | [:spiral_notepad:](#day-1---perl)     |
 | [2](https://adventofcode.com/2023/day/2)   |          |                                            |                                            |                                       |
 | [3](https://adventofcode.com/2023/day/3)   |          |                                            |                                            |                                       |
 | [4](https://adventofcode.com/2023/day/4)   |          |                                            |                                            |                                       |
@@ -34,4 +34,6 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 
 ## Notes/Diary
 
-### Day 1 - Bash
+### Day 1 - Perl
+
+This actually proved more frustrating than I'd expected for Day 1. I initially started the puzzle using Bash and zipped through the first half, before getting stuck on the second half. Then I swtiched to Perl which had better `index`/`rindex` support, fairly quickly zipped through the second half, and then got stuck on syntax when trying to redo the first half again. It took a while before I figured out that `my $val = ($str =~ m/.../);` and `my ($val) = ($str =~ m/.../);` were not the same thing. My bad.
