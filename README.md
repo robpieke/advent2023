@@ -8,7 +8,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | -----------------------------------------: | :------: | :----------------------------------------: | :----------------------------------------: | :-----------------------------------: |
 | [01](https://adventofcode.com/2023/day/1)  | Perl     | [:white_check_mark:](01_Perl/01a.pl)       | [:white_check_mark:](01_Perl/01b.pl)       | [:spiral_notepad:](#day-1---perl)     |
 | [02](https://adventofcode.com/2023/day/2)  | Bash     | [:white_check_mark:](02_Bash/02a.sh)       | [:white_check_mark:](02_Bash/02b.sh)       | [:spiral_notepad:](#day-2---bash)     |
-| [03](https://adventofcode.com/2023/day/3)  |          |                                            |                                            |                                       |
+| [03](https://adventofcode.com/2023/day/3)  | Kotlin   | [:white_check_mark:](03_Kotlin/03a.kts)    | [:white_check_mark:](03_Kotlin/03b.kts)    | [:spiral_notepad:](#day-3---kotlin)   |
 | [04](https://adventofcode.com/2023/day/4)  |          |                                            |                                            |                                       |
 | [05](https://adventofcode.com/2023/day/5)  |          |                                            |                                            |                                       |
 | [06](https://adventofcode.com/2023/day/6)  |          |                                            |                                            |                                       |
@@ -41,3 +41,7 @@ This actually proved more frustrating than I'd expected for Day 1. I initially s
 ### Day 2 - Bash
 
 I'm happy I was able to quickly return to Bash after my Day 1 failure. It all went quite smoothly, though it took a fair bit of Googling to understand how to split strings into arrays of words, the nuance of single `[` vs double `[[`, where you can/can't do math, and just generally knowing when having a whitespace was important to have/omit. I think the short of it is that I'm glad to be able to check this language off the list while the solutions are still very short to write. I really don't think I'd have wanted to write hundreds of lines of this stuff.
+
+### Day 3 - Kotlin
+
+This set of exercises went really smoothly. I found the [Kotlin docs](https://kotlinlang.org/docs/home.html) to be excellent, and the language felt very comfortable to write (in particular with my primarily-C++ day job). I particularly liked having `start .. end` ranges, and that collections had built-in methods for iterating, such as `forEachIndexed`. The only thing that felt a bit weird was the need to use helper functions (such as `mutableMapOf`) to create new collection objects, rather than calling some constructor or `New` function on the class. Based just on this taster, I'd be interested in trying Kotlin further.
