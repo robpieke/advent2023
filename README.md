@@ -9,7 +9,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [01](https://adventofcode.com/2023/day/1)  | Perl     | [:white_check_mark:](01_Perl/01a.pl)       | [:white_check_mark:](01_Perl/01b.pl)       | [:spiral_notepad:](#day-1---perl)     |
 | [02](https://adventofcode.com/2023/day/2)  | Bash     | [:white_check_mark:](02_Bash/02a.sh)       | [:white_check_mark:](02_Bash/02b.sh)       | [:spiral_notepad:](#day-2---bash)     |
 | [03](https://adventofcode.com/2023/day/3)  | Kotlin   | [:white_check_mark:](03_Kotlin/03a.kts)    | [:white_check_mark:](03_Kotlin/03b.kts)    | [:spiral_notepad:](#day-3---kotlin)   |
-| [04](https://adventofcode.com/2023/day/4)  |          |                                            |                                            |                                       |
+| [04](https://adventofcode.com/2023/day/4)  | Crystal  | [:white_check_mark:](04_Crystal/04a.cr)    | [:white_check_mark:](04_Crystal/04b.cr)    | [:spiral_notepad:](#day-3---crystal)  |
 | [05](https://adventofcode.com/2023/day/5)  |          |                                            |                                            |                                       |
 | [06](https://adventofcode.com/2023/day/6)  |          |                                            |                                            |                                       |
 | [07](https://adventofcode.com/2023/day/7)  |          |                                            |                                            |                                       |
@@ -45,3 +45,7 @@ I'm happy I was able to quickly return to Bash after my Day 1 failure. It all we
 ### Day 3 - Kotlin
 
 This set of exercises went really smoothly. I found the [Kotlin docs](https://kotlinlang.org/docs/home.html) to be excellent, and the language felt very comfortable to write (in particular with my primarily-C++ day job). I particularly liked having `start .. end` ranges, and that collections had built-in methods for iterating, such as `forEachIndexed`. The only thing that felt a bit weird was the need to use helper functions (such as `mutableMapOf`) to create new collection objects, rather than calling some constructor or `New` function on the class. Based just on this taster, I'd be interested in trying Kotlin further.
+
+### Day 4 - Crystal
+
+Wow, I really enjoyed programming in Crystal. Pretty much everything I wanted to do could be achieved extremely concisely, with a tremendously rich amount of functionality in all the classes. The only question mark I have was whether I could have tightened up the code for effectively doing a `map` on a limited `Range` of an `Array` in [part b](04_Crystal/04b.cr#L6-L8). I liked the general design and constructs of the language, feeling like there were fewer characters to type than with most other languages (e.g., no semi-colons, far fewer brackets, etc). And the amount of example code in the [API documentation](https://crystal-lang.org/api/) ... amazing.
