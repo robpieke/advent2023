@@ -11,7 +11,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [03](https://adventofcode.com/2023/day/3)  | Kotlin   | [:white_check_mark:](03_Kotlin/03a.kts)    | [:white_check_mark:](03_Kotlin/03b.kts)    | [:spiral_notepad:](#day-3---kotlin)   |
 | [04](https://adventofcode.com/2023/day/4)  | Crystal  | [:white_check_mark:](04_Crystal/04a.cr)    | [:white_check_mark:](04_Crystal/04b.cr)    | [:spiral_notepad:](#day-4---crystal)  |
 | [05](https://adventofcode.com/2023/day/5)  |          |                                            |                                            |                                       |
-| [06](https://adventofcode.com/2023/day/6)  |          |                                            |                                            |                                       |
+| [06](https://adventofcode.com/2023/day/6)  | R        | [:white_check_mark:](06_R/06a.r)           | [:white_check_mark:](06_R/06b.cr)          | [:spiral_notepad:](#day-6---r)        |
 | [07](https://adventofcode.com/2023/day/7)  |          |                                            |                                            |                                       |
 | [08](https://adventofcode.com/2023/day/8)  |          |                                            |                                            |                                       |
 | [09](https://adventofcode.com/2023/day/9)  |          |                                            |                                            |                                       |
@@ -49,3 +49,7 @@ This set of exercises went really smoothly. I found the [Kotlin docs](https://ko
 ### Day 4 - Crystal
 
 Wow, I really enjoyed programming in Crystal. Pretty much everything I wanted to do could be achieved extremely concisely, with a tremendously rich amount of functionality in all the classes. The only question mark I have was whether I could have tightened up [the code for effectively doing a `map` on a limited `Range` of an `Array`](04_Crystal/04b.cr#L6-L8). I liked the general design and constructs of the language, feeling like there were fewer characters to type than with most other languages (e.g., no semi-colons, far fewer brackets, etc). And the amount of example code in the [API documentation](https://crystal-lang.org/api/) ... amazing.
+
+### Day 6 - R
+
+I pretty quickly worked out using a quadratic formula to find the min/max hold times, which could be expressed pretty easily using any programming language. R was a good choice for the first challenge since it lets you both write expressions that are simultaneously applied across the elements of a vector (i.e., [finding the number of ways to win for each race](06_R/06a.r#L5-L8)) and to collapse vectors into single elements (i.e., [multiplying the elements to get the final answer](06_R/06a.r#L10)). When faced with the second challenge, I was lucky to discover R has [an easy way to concatenate numeric columns](06_R/06b.r#L2).
