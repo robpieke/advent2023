@@ -12,7 +12,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [04](https://adventofcode.com/2023/day/4)  | Crystal  | [:white_check_mark:](04_Crystal/04a.cr)    | [:white_check_mark:](04_Crystal/04b.cr)    | [:spiral_notepad:](#day-4---crystal)  |
 | [05](https://adventofcode.com/2023/day/5)  | Go       | [:white_check_mark:](04_Go/05a.go)         | [:white_check_mark:](05_Go/05b.go)         | [:spiral_notepad:](#day-5---go)       |
 | [06](https://adventofcode.com/2023/day/6)  | R        | [:white_check_mark:](06_R/06a.r)           | [:white_check_mark:](06_R/06b.cr)          | [:spiral_notepad:](#day-6---r)        |
-| [07](https://adventofcode.com/2023/day/7)  |          |                                            |                                            |                                       |
+| [07](https://adventofcode.com/2023/day/7)  | NodeJS   | [:white_check_mark:](07_NodeJS/07a.js)     | [:white_check_mark:](07_NodeJS/07b.js)     | [:spiral_notepad:](#day-7---nodejs)   |
 | [08](https://adventofcode.com/2023/day/8)  |          |                                            |                                            |                                       |
 | [09](https://adventofcode.com/2023/day/9)  |          |                                            |                                            |                                       |
 | [10](https://adventofcode.com/2023/day/10) |          |                                            |                                            |                                       |
@@ -57,3 +57,7 @@ I don't really have a lot to say about using Go for this task. Nothing really go
 ### Day 6 - R
 
 I pretty quickly worked out using a quadratic formula to find the min/max hold times, which could be expressed pretty easily using any programming language. R was a good choice for the first challenge since it lets you both write expressions that are simultaneously applied across the elements of a vector (i.e., [finding the number of ways to win for each race](06_R/06a.r#L5-L8)) and to collapse vectors into single elements (i.e., [multiplying the elements to get the final answer](06_R/06a.r#L10)). When faced with the second challenge, I was lucky to discover R has [an easy way to concatenate numeric columns](06_R/06b.r#L2).
+
+### Day 7 - NodeJS
+
+This day's solutions really benefitted from me doing this write-up. I was initially planning to highlight [one place I'd used `map`](07_NodeJS/07a.js#L35-L36) and "complain" about another place where I had a long block of code for looping with an embedded `switch` statement, but as I looked at it with increasing disgust I realised it could be replaced with a [one-line `map`/`reduce`]((07_NodeJS/07a.js#L20) as well. The general chaining of functions with `.` is a generally useful idiom, but I wonder at what point it crosses the line into hard-to-make-sense-of territory.
