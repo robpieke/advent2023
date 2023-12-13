@@ -14,7 +14,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [06](https://adventofcode.com/2023/day/6)  | R        | [:white_check_mark:](06_R/06a.r)           | [:white_check_mark:](06_R/06b.cr)          | [:spiral_notepad:](#day-6---r)        |
 | [07](https://adventofcode.com/2023/day/7)  | NodeJS   | [:white_check_mark:](07_NodeJS/07a.js)     | [:white_check_mark:](07_NodeJS/07b.js)     | [:spiral_notepad:](#day-7---nodejs)   |
 | [08](https://adventofcode.com/2023/day/8)  | Lua      | [:white_check_mark:](08_Lua/08a.lua)       | [:white_check_mark:](08_Lua/08b.lua)       | [:spiral_notepad:](#day-8---lua)      |
-| [09](https://adventofcode.com/2023/day/9)  |          |                                            |                                            |                                       |
+| [09](https://adventofcode.com/2023/day/9)  | Awk      | [:white_check_mark:](09_Awk/09a.awk)       | [:white_check_mark:](09_Awk/09b.awk)       | [:spiral_notepad:](#day-9---awk)      |
 | [10](https://adventofcode.com/2023/day/10) |          |                                            |                                            |                                       |
 | [11](https://adventofcode.com/2023/day/11) |          |                                            |                                            |                                       |
 | [12](https://adventofcode.com/2023/day/12) |          |                                            |                                            |                                       |
@@ -65,3 +65,7 @@ This day's solutions really benefitted from me doing this write-up. I was initia
 ### Day 8 - Lua
 
 This is very much a story in two parts. The first part of the puzzle went very smoothly, with Lua's tables being an excellent match for doing the traversal. The second part, however, was pretty frustrating. I'd argue the puzzle description omitted certain assumptions that could be made about the input data (as it turns out, each `??A` starting state only ever passes one `??Z` state, and it always does it on the same point in the rule string, and the first and second crossing have the same move count - i.e., the length from `??A` -> `??Z` is the same as the cycle length from `??Z` -> `??Z`). All this makes the problem a lot more practical to solve, but I felt dirty encoding these assumptions in my solution given they weren't explicitly included in the problem description. I'll also mention I was too lazy to implement least-common-multiple and used [the example from Rosetta Code](https://rosettacode.org/wiki/Least_common_multiple#Lua) instead. Other than the 1-indexing, I still love Lua.
+
+### Day 9 - Awk
+
+I remember being really impressed by Awk last year, and I was really looking forward to using it again this year. I was not disappointed. Granted I waited for a puzzle that I thought would be a good fit, but I was really pleased how simple it was to express exactly that I wanted to do - processing a file line-by-line, token-by-token, aggregating and producing a final result. Really great ... looking forward to using it again next year (I've still not found a use for it in my day-to-day life).
