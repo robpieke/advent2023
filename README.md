@@ -16,7 +16,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [08](https://adventofcode.com/2023/day/8)  | Lua      | [:white_check_mark:](08_Lua/08a.lua)       | [:white_check_mark:](08_Lua/08b.lua)       | [:spiral_notepad:](#day-8---lua)      |
 | [09](https://adventofcode.com/2023/day/9)  | Awk      | [:white_check_mark:](09_Awk/09a.awk)       | [:white_check_mark:](09_Awk/09b.awk)       | [:spiral_notepad:](#day-9---awk)      |
 | [10](https://adventofcode.com/2023/day/10) | Groovy   | [:white_check_mark:](10_Groovy/10a.groovy) |                                            | [:spiral_notepad:](#day-10---groovy)  |
-| [11](https://adventofcode.com/2023/day/11) |          |                                            |                                            |                                       |
+| [11](https://adventofcode.com/2023/day/11) | Julia    | [:white_check_mark:](11_Julia/11a.jl)      | [:white_check_mark:](11_Julia/11b.jl)      | [:spiral_notepad:](#day-11---julia)   |
 | [12](https://adventofcode.com/2023/day/12) |          |                                            |                                            |                                       |
 | [13](https://adventofcode.com/2023/day/13) |          |                                            |                                            |                                       |
 | [14](https://adventofcode.com/2023/day/14) |          |                                            |                                            |                                       |
@@ -73,3 +73,7 @@ I remember being really impressed by Awk last year, and I was really looking for
 ### Day 10 - Groovy
 
 I'm not sure this puzzle (or at least my solution to it) really allowed the language to shine. Some of the [indexed iteration](10_Groovy/10a.groovy#L21) was nice, but if I look at my usage of Groovy from last year, I didn't get to use any regular expressions or multiple return values (unpacking?). I also didn't like [constantly using `New`](10_Groovy/10a.groovy#L2-L15).
+
+### Day 11 - Julia
+
+For this puzzle I went searching for a language that would let me easily slice a 2D array by row or column. Since I'd already used R on Day 6, I used Julia this time and it was excellent. I was really impressed that everything I wanted to do seemed to just exist as a function I could call, from [searching for all the stars](11_Julia/11a.jl#L9) to [iterating and aggregating costs](11_Julia/11a.jl#L17) as one-liners. Granted I was constantly searching Google for "how do I...?", but the result was very concise and pleasing.
