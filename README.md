@@ -15,7 +15,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [07](https://adventofcode.com/2023/day/7)  | NodeJS   | [:white_check_mark:](07_NodeJS/07a.js)     | [:white_check_mark:](07_NodeJS/07b.js)     | [:spiral_notepad:](#day-7---nodejs)   |
 | [08](https://adventofcode.com/2023/day/8)  | Lua      | [:white_check_mark:](08_Lua/08a.lua)       | [:white_check_mark:](08_Lua/08b.lua)       | [:spiral_notepad:](#day-8---lua)      |
 | [09](https://adventofcode.com/2023/day/9)  | Awk      | [:white_check_mark:](09_Awk/09a.awk)       | [:white_check_mark:](09_Awk/09b.awk)       | [:spiral_notepad:](#day-9---awk)      |
-| [10](https://adventofcode.com/2023/day/10) |          |                                            |                                            |                                       |
+| [10](https://adventofcode.com/2023/day/10) | Groovy   | [:white_check_mark:](10_Groovy/10a.groovy) |                                            | [:spiral_notepad:](#day-10---groovy)  |
 | [11](https://adventofcode.com/2023/day/11) |          |                                            |                                            |                                       |
 | [12](https://adventofcode.com/2023/day/12) |          |                                            |                                            |                                       |
 | [13](https://adventofcode.com/2023/day/13) |          |                                            |                                            |                                       |
@@ -69,3 +69,7 @@ This is very much a story in two parts. The first part of the puzzle went very s
 ### Day 9 - Awk
 
 I remember being really impressed by Awk last year, and I was really looking forward to using it again this year. I was not disappointed. Granted I waited for a puzzle that I thought would be a good fit, but I was really pleased how simple it was to express exactly that I wanted to do - processing a file line-by-line, token-by-token, aggregating and producing a final result. Really great ... looking forward to using it again next year (I've still not found a use for it in my day-to-day life).
+
+### Day 10 - Groovy
+
+I'm not sure this puzzle (or at least my solution to it) really allowed the language to shine. Some of the [indexed iteration](10_Groovy/10a.groovy#L21) was nice, but if I look at my usage of Groovy from last year, I didn't get to use any regular expressions or multiple return values (unpacking?). I also didn't like [constantly using `New`](10_Groovy/10a.groovy#L2-L15).
