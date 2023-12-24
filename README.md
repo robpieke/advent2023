@@ -29,7 +29,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [21](https://adventofcode.com/2023/day/21) |          |                                            |                                            |                                       |
 | [22](https://adventofcode.com/2023/day/22) |          |                                            |                                            |                                       |
 | [23](https://adventofcode.com/2023/day/23) |          |                                            |                                            |                                       |
-| [24](https://adventofcode.com/2023/day/24) |          |                                            |                                            |                                       |
+| [24](https://adventofcode.com/2023/day/24) | Python   | [:white_check_mark:](24_Python/24a.py)     |                                            | [:spiral_notepad:](#day-24---python)  |
 | [25](https://adventofcode.com/2023/day/25) |          |                                            |                                            |                                       |
 
 ## Notes/Diary
@@ -81,3 +81,7 @@ For this puzzle I went searching for a language that would let me easily slice a
 ### Day 12 - Ruby
 
 This was another great-fit day. Ruby makes it easy to work with regular expressions, and has awesome support for wrangling arrays. I was able to easily express my solution to the first part of this puzzle with nice concise code.
+
+### Day 24 - Python
+
+As a Christmas present to myself, I finally allowed myself to use Python. I use this for ~25% of my professional programming, so it was very comfortable for me to just dive in and try to tackle the logic/math of the puzzle instead of trying to figure out the language oddities.
