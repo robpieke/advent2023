@@ -17,7 +17,7 @@ All the icons below are clickable links to my solutions and some notes/thoughts 
 | [09](https://adventofcode.com/2023/day/9)  | Awk      | [:white_check_mark:](09_Awk/09a.awk)       | [:white_check_mark:](09_Awk/09b.awk)       | [:spiral_notepad:](#day-9---awk)      |
 | [10](https://adventofcode.com/2023/day/10) | Groovy   | [:white_check_mark:](10_Groovy/10a.groovy) |                                            | [:spiral_notepad:](#day-10---groovy)  |
 | [11](https://adventofcode.com/2023/day/11) | Julia    | [:white_check_mark:](11_Julia/11a.jl)      | [:white_check_mark:](11_Julia/11b.jl)      | [:spiral_notepad:](#day-11---julia)   |
-| [12](https://adventofcode.com/2023/day/12) |          |                                            |                                            |                                       |
+| [12](https://adventofcode.com/2023/day/12) | Ruby     | [:white_check_mark:](12_Ruby/12a.rb)       |                                            | [:spiral_notepad:](#day-12---ruby)    |
 | [13](https://adventofcode.com/2023/day/13) |          |                                            |                                            |                                       |
 | [14](https://adventofcode.com/2023/day/14) |          |                                            |                                            |                                       |
 | [15](https://adventofcode.com/2023/day/15) |          |                                            |                                            |                                       |
@@ -77,3 +77,7 @@ I'm not sure this puzzle (or at least my solution to it) really allowed the lang
 ### Day 11 - Julia
 
 For this puzzle I went searching for a language that would let me easily slice a 2D array by row or column. Since I'd already used R on Day 6, I used Julia this time and it was excellent. I was really impressed that everything I wanted to do seemed to just exist as a function I could call, from [searching for all the stars](11_Julia/11a.jl#L9) to [iterating and aggregating costs](11_Julia/11a.jl#L17) as one-liners. Granted I was constantly searching Google for "how do I...?", but the result was very concise and pleasing.
+
+### Day 12 - Ruby
+
+This was another great-fit day. Ruby makes it easy to work with regular expressions, and has awesome support for wrangling arrays. I was able to easily express my solution to the first part of this puzzle with nice concise code.
