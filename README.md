@@ -2,7 +2,7 @@
 
 Here's my go at solving the puzzles from https://adventofcode.com/2023 - with the extra challenge of using a different programming language for each day.
 
-All the icons below are clickable links to my solutions and some notes/thoughts on the language used that day. Most of the notes were written well after-the-fact so, for better or worse, probably aren't as brilliant as they could be at capturing my emotional "at the moment" opinions.
+All the icons below are clickable links to my solutions and some notes/thoughts on the language used that day.
 
 | Day                                        | Language | Part 1                                     | Part 2                                     | Notes                                 |
 | -----------------------------------------: | :------: | :----------------------------------------: | :----------------------------------------: | :-----------------------------------: |
